@@ -13,6 +13,8 @@ import android.support.annotation.Nullable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -52,7 +54,15 @@ public class GuardNewsAdapter extends ArrayAdapter<News> {
             headlineTextView.setText(currentNews.getHeadline());
             dateTextView.setText(currentNews.getTime());
             sectionTextView.setText(currentNews.getSectionName());
-            new DownloadImageTask(imageView).execute(currentNews.getImageUrl());
+
+            //circle transform is not really necessary
+            Picasso.with(this.getContext())
+                    .load(currentNews.getImageUrl())
+                    .centerCrop()
+                    .transform(new CircleTransform(50,0))
+                    .fit()
+                    .into(imageView);
+            //new DownloadImageTask(imageView).execute(currentNews.getImageUrl());
         }
 
 
