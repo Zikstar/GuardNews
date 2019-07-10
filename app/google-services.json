@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "771365554277",
+    "firebase_url": "https://guardnews-bcef8.firebaseio.com",
+    "project_id": "guardnews-bcef8",
+    "storage_bucket": "guardnews-bcef8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771365554277:android:34a5428b02b3a5b8",
+        "android_client_info": {
+          "package_name": "com.example.zikstar.guardnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771365554277-scpulba7id4ql7vug6g6vtkdbu58l6ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zikstar.guardnews",
+            "certificate_hash": "56b7e22724a1a6321c34c1cbb9cfc0325d3548f2"
+          }
+        },
+        {
+          "client_id": "771365554277-jnsc1cvbcd2p8co1jpijkod2t5mup3ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxij3zdNT97LK733mFuIcvi_kTtRoSajU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771365554277-jnsc1cvbcd2p8co1jpijkod2t5mup3ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
